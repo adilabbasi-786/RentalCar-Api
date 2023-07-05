@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "lists",
+  "info": {
+    "singularName": "list",
+    "pluralName": "lists",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "ser_list": {
+      "displayName": "ser_list",
+      "type": "component",
+      "repeatable": true,
+      "component": "ser-list.ser-list"
+    }
+  }
+}

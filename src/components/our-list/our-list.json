@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_our_list_our_lists",
+  "info": {
+    "displayName": "our-list",
+    "icon": "arrowDown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

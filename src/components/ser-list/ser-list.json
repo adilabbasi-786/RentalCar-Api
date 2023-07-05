@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ser_list_ser_lists",
+  "info": {
+    "displayName": "ser_list",
+    "icon": "arrowDown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}
