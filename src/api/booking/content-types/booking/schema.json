@@ -15,14 +15,19 @@
     "name": {
       "type": "string"
     },
-    "email": {
-      "type": "string"
-    },
-    "req": {
+    "special_request": {
       "type": "text"
     },
     "date": {
       "type": "date"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "service_type": {
+      "type": "string"
     }
   }
 }
