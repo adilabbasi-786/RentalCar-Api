@@ -14,7 +14,6 @@ module.exports = createCoreController("api::booking.booking", ({ strapi }) => ({
     // Calling the default core action
     const userId = ctx.state.user.id;
     const entries = await strapi.db.query("api::booking.booking").findMany({
-      select: ["name"],
       where: { users_permissions_user: userId },
     });
     console.log(entries);

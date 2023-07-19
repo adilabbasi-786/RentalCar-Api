@@ -28,6 +28,15 @@
     },
     "service_type": {
       "type": "string"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "confirm",
+        "reject"
+      ],
+      "default": "pending"
     }
   }
 }

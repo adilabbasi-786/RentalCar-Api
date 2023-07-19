@@ -4,7 +4,8 @@
   "info": {
     "singularName": "web-info",
     "pluralName": "web-infos",
-    "displayName": "web-info"
+    "displayName": "web-info",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,9 @@
       "type": "string"
     },
     "fb_URL": {
+      "type": "string"
+    },
+    "opening_hours": {
       "type": "string"
     }
   }
