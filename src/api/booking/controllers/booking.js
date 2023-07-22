@@ -54,4 +54,20 @@ module.exports = createCoreController("api::booking.booking", ({ strapi }) => ({
 
     return session.url;
   },
+  async updatePayment(ctx) {
+    const bookingId = ctx.request.body.bookingId;
+    const transactionId = ctx.request.body.transactionId;
+    console.log(ctx.request.body);
+    const entry = await strapi.entityService.update(
+      "api::booking.booking",
+      bookingId,
+      {
+        data: {
+          Status: "confirmed",
+          transactionId: transactionId,
+        },
+      }
+    );
+    return "hello";
+  },
 }));

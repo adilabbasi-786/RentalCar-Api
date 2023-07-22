@@ -6,5 +6,10 @@ module.exports = {
       path: "/createnewbooking/",
       handler: "booking.newBooking",
     },
+    {
+      method: "POST",
+      path: "/update_payment_status/",
+      handler: "booking.updatePayment",
+    },
   ],
 };
